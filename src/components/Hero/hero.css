@@ -1,0 +1,41 @@
+.typed-cursor {
+  font-size: 50px;
+  color: #5c6bc0;
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+}
+
+.desc {
+  height: 380px;
+}
+
+.bx {
+  color: white;
+  font-size: 30px;
+}
+
+@media (max-width: 1060px) {
+  .img {
+    width: 450px;
+    height: 450px;
+  }
+  .typed-cursor {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 800px) {
+  .desc {
+    height: 250px;
+  }
+  .img {
+    width: 350px;
+    height: 350px;
+  }
+  .bx {
+    font-size: 24px;
+  }
+}

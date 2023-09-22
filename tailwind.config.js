@@ -5,6 +5,8 @@ export default {
     extend: {
       screens: {
         sm: "480px",
+        lg: "1120px",
+        md: "800px",
       },
       spacing: {
         big: "46rem",

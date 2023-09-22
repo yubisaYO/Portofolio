@@ -1,4 +1,6 @@
 import React, { useState, useRef } from "react";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -48,10 +50,10 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-      <span className="flex items-center md:hidden text-2xl cursor-pointer z-10">
-        <i className="bx bx-menu" onClick={toggleMenu}></i>
+
+      <span className="flex items-center text-2xl cursor-pointer z-50 text-black">
+        <FontAwesomeIcon icon={faBars} onClick={toggleMenu} />
       </span>
-      {/* Tambahkan kelas 'menu-open' saat menu terbuka */}
       <ul
         ref={menuRef}
         className={`absolute md:hidden text-sm items-center uppercase font-semibold w-full bg-white top-14 text-center shadow-md border-2 border-t-gray-200 ${
