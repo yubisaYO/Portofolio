@@ -40,7 +40,10 @@ const App = () => {
       <section id="contact" className="p-4">
         <Contact />
       </section>
-      <section id="footer" className="p-4 bg-yellow-100">
+      <section
+        id="footer"
+        className="p-4 bg-gradient-to-r from-blue-50 to-blue-950"
+      >
         <Footer />
       </section>
     </div>

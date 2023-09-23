@@ -62,12 +62,26 @@ const Contact = () => {
               <span>Vikamas 1 blok bb no 12 b</span>
             </li>
             <li>
-              <FontAwesomeIcon icon={faLocationDot} />
-              <span>MyLinked in profile</span>
+              <i className="bx bxl-linkedin text-black"></i>
+              <a
+                href="https://www.linkedin.com/in/charles-liu-75a5b2277/"
+                target="_blank"
+                className="text-blue-700"
+                rel="noreferrer"
+              >
+                <span>MyLinked in profile</span>
+              </a>
             </li>
             <li>
-              <FontAwesomeIcon icon={faLocationDot} />
-              <span>MyGithub in profile</span>
+              <i className="bx bxl-github text-black"></i>
+              <a
+                href="https://github.com/yubisaYO?tab=repositories"
+                target="_blank"
+                className="text-blue-700"
+                rel="noreferrer"
+              >
+                <span>MyGithub profile</span>
+              </a>
             </li>
           </ul>
         </div>

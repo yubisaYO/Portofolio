@@ -39,7 +39,7 @@ const Hero = () => {
        rounded-full overflow-x-hidden border-2 border-black img bg-blue-400"
         >
           <img
-            src="./HeroCover.png"
+            src="./hero-3.png"
             alt=""
             className="w-full h-full object-cover"
           />
@@ -65,6 +65,7 @@ const Hero = () => {
                 href="https://www.linkedin.com/in/charles-liu-75a5b2277/"
                 className="flex items-center"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i className="bx bxl-linkedin"></i>
               </a>
@@ -74,6 +75,7 @@ const Hero = () => {
                 href="https://github.com/yubisaYO"
                 className="flex items-center"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i className="bx bxl-github"></i>
               </a>
@@ -83,13 +85,20 @@ const Hero = () => {
                 href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqXQFdvqBDhzvVKshvvKBNBBWmfLBTmLVbkTWrRBJVhNLRJPznKBcJpzLmLBwjSgvdncjB"
                 className="flex items-center"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i className="bx bxl-gmail"></i>
               </a>
             </li>
           </ul>
           <button className="bg-indigo-400 w-fit py-2 px-4 md:py-4 md:px-8 xl:py-6 xl:px-10 rounded-lg shadow-md font-bold text-white text-2xl mt-auto">
-            See My CV
+            <a
+              href="https://binusianorg-my.sharepoint.com/personal/charles008_binus_ac_id/_layouts/15/guestaccess.aspx?share=EYMss9yenVtJodM1hcpQfjQBkvsriQ69lpsSCJDsKiWwNg&e=G4FlNB"
+              target="_blank"
+              rel="noreferrer"
+            >
+              See My CV
+            </a>
           </button>
         </div>
       </div>
