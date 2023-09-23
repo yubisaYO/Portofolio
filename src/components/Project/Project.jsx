@@ -22,7 +22,7 @@ const Project = ({ data }) => {
       className="relative overflow-hidden rounded-lg bg-white"
       onMouseEnter={mouseIn}
       onMouseLeave={mouseOut}
-      style={{ width: "300px", height: "400px", border: "3px solid yellow" }}
+      style={{ width: "300px", height: "400px", border: "3px solid white" }}
     >
       <img src={data.img} alt="" className="w-full h-full object-fill" />
 
@@ -31,7 +31,7 @@ const Project = ({ data }) => {
           className="absolute animate__animated animate__fadeInUp left-0 top-1/2 h-full flex flex-col bg-white"
           ref={menuRef}
         >
-          <h1 className="bg-indigo-400 p-2 rounded-t-lg font-bold">
+          <h1 className="bg-indigo-400 p-2 rounded-t-lg font-bold text-white">
             {data.title}
           </h1>
           <div className="bg-white flex flex-col gap-2 items-start p-2">
@@ -54,7 +54,8 @@ const Project = ({ data }) => {
           <div className="border-2 border-t-neutral-400  flex mb-4 items-center h-14">
             <a
               className="w-1/2 border-2 border-r-neutral-400 h-full flex items-center justify-center cursor-pointer"
-              href=""
+              href={data.git}
+              target="_blank"
             >
               <FontAwesomeIcon icon={faCode} />
               <span>Code</span>
@@ -63,6 +64,7 @@ const Project = ({ data }) => {
             <a
               className="w-1/2 h-full flex items-center justify-center cursor-pointer"
               href={data.view}
+              target="_blank"
             >
               <FontAwesomeIcon icon={faEye} />
               <span>View</span>
@@ -72,7 +74,7 @@ const Project = ({ data }) => {
           </div>
         </div>
       ) : (
-        <h1 className="absolute bottom-0 left-0 right-0 mx-auto animate__animated animate__fadeIn bg-indigo-400 p-4 font-bold rounded-md ">
+        <h1 className="text-white absolute bottom-0 left-0 right-0 mx-auto animate__animated animate__fadeIn bg-indigo-400 p-4 font-bold rounded-md ">
           {data.title}
         </h1>
       )}

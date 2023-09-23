@@ -40,8 +40,8 @@ const Navbar = () => {
           </a>
         </li>
         <li className="mr-3" onClick={toggleMenu}>
-          <a href="#work" className="hover:opacity-80">
-            Work
+          <a href="#projects" className="hover:opacity-80">
+            Projects
           </a>
         </li>
         <li className="" onClick={toggleMenu}>
@@ -71,8 +71,8 @@ const Navbar = () => {
           </a>
         </li>
         <li className="p-4">
-          <a href="#work" className="hover:opacity-80">
-            Work
+          <a href="#projects" className="hover:opacity-80">
+            Projects
           </a>
         </li>
         <li className=" p-4">

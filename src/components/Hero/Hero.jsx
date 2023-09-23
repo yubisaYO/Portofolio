@@ -64,22 +64,25 @@ const Hero = () => {
               <a
                 href="https://www.linkedin.com/in/charles-liu-75a5b2277/"
                 className="flex items-center"
+                target="_blank"
               >
                 <i className="bx bxl-linkedin"></i>
               </a>
             </li>
             <li className="rounded-full bg-black p-2 cursor-pointer flex items-center">
               <a
-                href="https://www.linkedin.com/in/charles-liu-75a5b2277/"
+                href="https://github.com/yubisaYO"
                 className="flex items-center"
+                target="_blank"
               >
                 <i className="bx bxl-github"></i>
               </a>
             </li>
             <li className="rounded-full bg-black p-2 cursor-pointer">
               <a
-                href="https://www.linkedin.com/in/charles-liu-75a5b2277/"
+                href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqXQFdvqBDhzvVKshvvKBNBBWmfLBTmLVbkTWrRBJVhNLRJPznKBcJpzLmLBwjSgvdncjB"
                 className="flex items-center"
+                target="_blank"
               >
                 <i className="bx bxl-gmail"></i>
               </a>
