@@ -48,8 +48,8 @@ const dataProject = [
 
     using: ["reactjs", "css"],
     img: "./project-5.png",
-    git: "https://free-money-three.vercel.app/",
-    view: "https://github.com/yubisaYO/FreeMoney",
+    git: "https://github.com/yubisaYO/FreeMoney",
+    view: "https://free-money-three.vercel.app/",
   },
   {
     id: 6,
