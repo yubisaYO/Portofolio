@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import Skills from "./components/Skills/Skills";
 
 const App = () => {
   return (
@@ -16,8 +17,12 @@ const App = () => {
         </div>
       </section>
 
-      <section id="about" className="h-screen bg-blue-600">
+      <section
+        id="about"
+        className="h-screen bg-white flex flex-col gap-5 px-4"
+      >
         <About />
+        <Skills />
       </section>
 
       <section

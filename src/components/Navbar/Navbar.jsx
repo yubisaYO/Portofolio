@@ -35,7 +35,7 @@ const Navbar = () => {
           </a>
         </li>
         <li className="mr-3" onClick={toggleMenu}>
-          <a href="#about" className="hover:opacity-80">
+          <a href="#about" className="hover:opacity-80 text-black">
             About
           </a>
         </li>
@@ -51,7 +51,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <span className="flex items-center text-2xl cursor-pointer z-50 text-black">
+      <span className="md:hidden flex items-center text-2xl cursor-pointer z-50 text-black">
         <FontAwesomeIcon icon={faBars} onClick={toggleMenu} />
       </span>
       <ul
@@ -60,8 +60,8 @@ const Navbar = () => {
           menu ? "menu-open animate__animated animate__fadeInDown" : "hidden"
         } space-y-6 py-4 rounded-b-lg`}
       >
-        <li className="p-4">
-          <a href="#" className="hover:opacity-80">
+        <li className="p-4 text-black">
+          <a href="#" className="hover:opacity-80 text-black">
             Home
           </a>
         </li>

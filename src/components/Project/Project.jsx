@@ -38,7 +38,7 @@ const Project = ({ data }) => {
             <p className="text-neutral-400 text-sm text-left">
               {data.description}
             </p>
-            <ul className="flex justify-center text-black gap-3">
+            <ul className="flex justify-center text-black gap-3 flex-wrap">
               {data.using.map((item) => {
                 return (
                   <li

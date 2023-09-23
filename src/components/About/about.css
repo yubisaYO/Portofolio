@@ -1,0 +1,10 @@
+.content {
+  height: 70vh;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    height: 75vh;
+    margin-bottom: 0;
+  }
+}
