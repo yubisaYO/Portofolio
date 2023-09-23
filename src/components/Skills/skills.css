@@ -5,13 +5,3 @@
   color: white;
   font-weight: 500;
 }
-
-@media (max-width: 1000px) {
-  .projects {
-    grid-template-columns: repeat(
-      2,
-      1fr
-    ); /* Mengubah menjadi 2 kolom pada lebar layar yang lebih kecil */
-  }
-}
-

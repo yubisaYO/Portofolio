@@ -19,7 +19,7 @@ const App = () => {
 
       <section
         id="about"
-        className="h-screen bg-white flex flex-col gap-5 px-4"
+        className="h-screen bg-white flex flex-col gap-2 px-4"
       >
         <About />
         <Skills />

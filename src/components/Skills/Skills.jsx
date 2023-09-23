@@ -3,10 +3,10 @@ import "./skills.css";
 const Skills = () => {
   return (
     <div
-      className="w-full mx-auto flex flex-col gap-5"
+      className="w-full mx-auto flex flex-col gap-3"
       style={{ maxWidth: "1250px" }}
     >
-      <h1 className="text-2xl font-semibold w-full lg:w-1/4 ">
+      <h1 className="text-xl md:text-2xl font-semibold w-full lg:w-1/4 ">
         Skills & Tools :{" "}
       </h1>
       <ul className="flex gap-3 md:gap-5 flex-wrap items-center skillList">

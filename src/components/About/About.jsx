@@ -3,7 +3,7 @@ import "./about.css";
 const About = () => {
   return (
     <div
-      className="flex flex-col md:flex-row w-full mx-auto pt-5 gap-5 md:gap-10 items-center content bg-red-500"
+      className="flex flex-col md:flex-row w-full mx-auto pt-5 gap-5 md:gap-10 items-center content"
       style={{ maxWidth: "1250px" }}
     >
       <div className="flex-1 h-1/2 md:h-full flex flex-col gap-5 order-2 md:order-1">
@@ -13,7 +13,7 @@ const About = () => {
           </h1>
           <div className="w-1/2 h-2 bg-indigo-400"></div>
         </div>
-        <p className="md:text-md lg:text-xl">
+        <p className="descAbout text-md lg:text-lg xl:text-xl">
           I am an enthusiast in the field of technology, particularly in the
           realm of front-end development. This passion led me to pursue a degree
           in computer science, allowing me to delve deeper into the world of
@@ -27,7 +27,7 @@ const About = () => {
           and broadened my horizons in the ever-evolving tech landscape.
         </p>
       </div>
-      <div className="flex-1 h-1/2 w-full  md:h-full rounded-3xl overflow-hidden order-1 md:order-2">
+      <div className="hidden md:block flex-1 h-1/2 w-full  md:h-full rounded-3xl overflow-hidden order-1 md:order-2">
         <img
           src="./portoImg2.jpg"
           alt=""
